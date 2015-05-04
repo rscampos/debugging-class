@@ -1,4 +1,4 @@
-/* Source code for debugging class.
+/* Source code for the 'debugging class'. 
  * source02.c - inspect debug information such as: variables and functions. 
  * Raphael Campos Silva <raphaelcampos.rp@gmail.com>
  * 03/05/2015
