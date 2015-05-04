@@ -7,9 +7,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int global_var=10;
-
-
 int subnum(int num1, int num2){
 	int static_var=10;
 	int result_sub;
