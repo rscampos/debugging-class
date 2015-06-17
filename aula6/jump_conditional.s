@@ -5,8 +5,6 @@
  */
 
 .data
-	hellostring:
-		.ascii "Hello World!\n"
 	zeroflag_set:
 		.asciz "Zero flag is set!\n"
 	zeroflag_notset:
@@ -14,7 +12,6 @@
 .text
 .globl _start
 _start:
-	# calling the syscall write(1,"Hello World!\n",13)
 	
 	movl $10, %eax
 	jz ZeroFlagSet	

@@ -1,5 +1,5 @@
 /* Source code for the 'debugging class'. 
- * push_pop.s - Studying how the instructions push and pop works. 
+ * function.s - declare function. 
  * Raphael Campos Silva <raphaelcampos.rp@gmail.com>
  * 14/06/2015
  */
@@ -11,7 +11,7 @@
 		.ascii "Hello World!\n"
 
 .text
-
+	# calling the syscall write
 	Myfunction:
                 movl $4, %eax
                 movl $1, %ebx
