@@ -1,5 +1,5 @@
 /* Source code for the 'debugging class'. 
- * loop.s - Studying how loop works. 
+ * loop.s - Studying how loop instruction works. 
  * Raphael Campos Silva <raphaelcampos.rp@gmail.com>
  * 14/06/2015
  */

@@ -1,5 +1,5 @@
 /* Source code for the 'debugging class'. 
- * push_pop.s - Studying how the instructions push and pop works. 
+ * push_pop.s - studying how the push and pop instructions works. 
  * Raphael Campos Silva <raphaelcampos.rp@gmail.com>
  * 14/06/2015
  */

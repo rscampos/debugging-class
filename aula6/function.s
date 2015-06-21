@@ -1,5 +1,5 @@
 /* Source code for the 'debugging class'. 
- * function.s - studying how the instruction call works. 
+ * function.s - studying how the call instruction works. 
  * Raphael Campos Silva <raphaelcampos.rp@gmail.com>
  * 14/06/2015
  */
