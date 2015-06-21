@@ -15,8 +15,9 @@ _start:
 		movl $4, %eax
 		movl $1, %ebx
 		# You can't do this "movl $hellostring, %ecx"
-		# Use push and pop
-		movl $22, %edx
+		pushl $hellostring
+		popl %ecx
+		movl $13, %edx
 		int $0x80
 
 	# calling the syscall exit(0)

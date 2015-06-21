@@ -14,6 +14,7 @@
 _start:
 	
 	movl $10, %eax
+	xorl %eax, %eax
 	jz ZeroFlagSet	
 
 	ZeroFlagNotSet:

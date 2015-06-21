@@ -21,9 +21,11 @@ _start:
 		loopblock:
 			movl $4, %eax
 			movl $1, %ebx
+			pushl %ecx		# save ecx		
 			movl $hellostring, %ecx
-			movl $22, %edx
+			movl $13, %edx
 			int $0x80
+			popl %ecx		# restore ecx
 			loop loopblock
 			jmp exit
 
