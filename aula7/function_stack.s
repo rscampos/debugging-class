@@ -1,5 +1,5 @@
 /* Source code for the 'debugging class'. 
- * function_stack.s - Studying how pass arguments to functions via stack. 
+ * function_stack.s - pass arguments to functions via stack. 
  * Raphael Campos Silva <raphaelcampos.rp@gmail.com>
  * 24/06/2015
  */
