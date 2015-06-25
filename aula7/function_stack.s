@@ -28,6 +28,7 @@ PrinterFunction:
 	# epilogue
 	movl %ebp, %esp	# restore the old value of esp
 	popl %ebp	# restore the old value of ebp
+	# 'leave' can replace (movl %ebp, %esp; popl %ebp)
 	ret		# return to the caller
 
 _start:
