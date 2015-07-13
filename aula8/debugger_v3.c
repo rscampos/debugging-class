@@ -56,7 +56,6 @@ void run_debugger(pid_t child_pid){
 		printf("[parent] Breakpoint was hit!\n");
                 ptrace(PTRACE_GETREGS, child_pid, 0, &regs);
 		printf("[parent] Registers: EAX=0x%08x EBX=0x%08x ECX=0x%08x EDX=0x%08x\n", regs.eax, regs.ebx, regs.ecx, regs.edx);
-
 		
 		/* Step 4) Decrement EIP and put the opcode back */
 		regs.eip -=1;
